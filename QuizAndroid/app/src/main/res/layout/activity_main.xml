@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:id="@+id/Pytanie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tekst pytania"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+
+            android:id="@+id/Prawda"
+         android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prawda" />
+
+        <Button
+android:layout_weight="1"
+            android:id="@+id/Falsz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Falsz" />
+
+    </LinearLayout>
+
+</LinearLayout>

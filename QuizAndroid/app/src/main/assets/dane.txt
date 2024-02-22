@@ -1,0 +1,10 @@
+Czy zielony to green
+true
+Czy zolty to yellow
+true
+Czy grabarz jest
+true
+Czy grzegorz maly
+false
+Czy patryk czerwona bluza
+true
